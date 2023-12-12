@@ -1,0 +1,330 @@
+/*
+
+https://codemyui.com/wp-content/uploads/2016/11/pure-css-snow-animation.gif (snow)
+
+https://frankosmaps.com/cdn/shop/products/33104_Cozumel_Fish_Card_2016-2.jpg?v=1609703509 (fish)
+
+https://images.unsplash.com/photo-1528818955841-a7f1425131b5?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhcnJ5JTIwc2t5fGVufDB8fDB8fHww (stars)
+
+https://mir-s3-cdn-cf.behance.net/project_modules/disp/5c4c7927001997.55f348e9a94ea.gif (orange)
+
+https://i.pinimg.com/originals/14/b2/c3/14b2c303b27bb22107c01c67e4f7f1df.gif (synth)
+
+https://mir-s3-cdn-cf.behance.net/project_modules/disp/ba056770455143.5ba3cb5ce2161.gif (blue waves)
+
+https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiHvJ6J_Y88ZGZvVUP89rNxJsM8fV_0gxjVg:https://png.pngtree.com/element_our/20200610/ourmid/pngtree-red-exclamation-mark-image_2243398.jpg&usqp=CAU (BLANK)
+
+*/
+														
+p.blank {
+	font-size: 50px;
+	color: white;
+	font-family: 'Nabla';
+}
+
+body {
+	background-color: BlanchedAlmond;
+	background-image: url("https://images.unsplash.com/photo-1528818955841-a7f1425131b5?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8c3RhcnJ5JTIwc2t5fGVufDB8fDB8fHww");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	margin: 25px;
+}
+h1 {
+	font-family: 'Nabla';
+	background-image: url("https://codemyui.com/wp-content/uploads/2016/11/pure-css-snow-animation.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	border-radius: 30px;
+}
+
+a {
+	font-family: cursive;
+	color: BlanchedAlmond;
+}
+
+@keyframes colors {
+	0% {
+		filter: blur(0px);
+	}
+	25% {
+	    filter: blur(1px);
+	}
+	50% {
+	    filter: blur(4px);
+	}
+	100% {
+		filter: blur(0px);
+	}
+}	
+
+@keyframes shadows {
+	from {
+		filter: drop-shadow(8px 8px 10px black);
+	}
+	to {
+		filter: hue-rotate(8px 8px 10px black);
+	}
+}	
+
+img.apps:hover {
+	filter: drop-shadow(8px 8px 10px black);
+	filter: brightness (100%);
+	animation: colors 1s forwards, shadows 0.5s;
+}
+
+.apps {
+	border-radius:30px;
+	filter: brightness(95%);
+	padding: black 5px;
+}
+
+iframe {
+	height: 900px;
+	width: 100%;
+	border-radius: 30px;
+}
+
+.title {
+	font-family: 'Nabla';
+	font-size: 125px;
+	text-shadow: 100px black;
+	background-image: url("https://mir-s3-cdn-cf.behance.net/project_modules/disp/ba056770455143.5ba3cb5ce2161.gif");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	border-radius: 30px;
+}
+
+.resource-links {
+	color: BlanchedAlmond;
+	background-color: grey;
+	border-radius: 30px;
+	padding: 10px;
+	list-style-position: inside;
+}
+
+.resource-list{
+	color: BlanchedAlmond;
+}	
+
+.tyrone {
+	height: 951px;
+	width: 644px;
+	border-radius: 20px;
+}
+
+audio {
+	opacity: 0.0;
+	width: 15px;
+	height: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first-clue {
+															font-family: 'Bungee Spice';
+															font-size: 50px;
+														}
+
+.extra {
+															font-family: 'Bungee Spice';
+															font-size: 50px;
+														}
+
+														.clue-footnote {
+															font-family: 'Bungee Spice';
+															font-size: 25px;
+														}
+														
+														#letter-intro {
+															font-size: 50px;
+															color: white;
+															font-family: 'Caesar Dressing';
+														}
+
+														#letter-main {
+															font-family: 'Caesar Dressing';
+															font-size: 50px;
+															color: white;
+															text-align: center;
+														}
+
+														#code {
+															font-family: 'Caesar Dressing';
+															font-size: 50px;
+															color: #ffffff;
+														}
+
+														#code:hover {
+															color: #bababa;
+														}
+
+														#cypher-wheel {
+															height: 40px;
+															width: 20px;
+															opacity: 0;
+														}
+
+														#cypher-wheel:hover {
+															height: 661px;
+															width: 100%;
+															opacity: 1;
+															border-radius: 30px;
+														}
+
+														#end-credit {
+															height: 40px;
+															width: 20px;
+															opacity: 0;
+															float: right;
+														}
+
+														#end-credit:hover {
+															height: 661px;
+															width: 100%;
+															opacity: 1;
+															border-radius: 30px;
+															float: right;
+														}
